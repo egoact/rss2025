@@ -97,6 +97,7 @@ $(document).ready(function () {
     &nbsp;&nbsp;&nbsp;&nbsp;
     <img src="${conference_details[3]}" width="500px">
   </div>
+  <br>
   <p class="is-2"><i class="fas fa-map-marker-alt" aria-hidden="true"></i>
   ${conference_details[2]}</p>
   </a>`)
@@ -198,7 +199,7 @@ $(document).ready(function () {
   });
 
   // Last updated
-  var apiUrl = "https://api.github.com/repos/rss2025/egoact.github.io/commits?sha=main&per_page=1";
+  var apiUrl = "https://api.github.com/repos/egoact/rss2025.github.io/commits?sha=main&per_page=1";
   $.getJSON(apiUrl, function (data) {
     var commitDate = new Date(data[0].commit.committer.date);
     var formattedDate = commitDate.toDateString();
