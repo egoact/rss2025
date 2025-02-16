@@ -93,13 +93,13 @@ $(document).ready(function () {
   $('#conference-details').html(`
   <a href="${conference_details[1]}" target="_blank">
   <div class="title-images">
-    // <img src="${conference_details[4]}" width="130px" height="130px">
-    <img src="${conference_details[3]}" width="270px">
+    <img src="${conference_details[4]}" width="130px" height="130px">
+    <img src="${conference_details[3]}" width="470px">
   </div>
   <p class="is-2"><i class="fas fa-map-marker-alt" aria-hidden="true"></i>
   ${conference_details[2]}</p>
   </a>`)
-  $('#workshop-date').html(workshop_date) // Eg. Monday, 17th July @ RSS 2024
+  $('#workshop-date').html(workshop_date) // Eg. Monday, 17th July @ RSS 2025
 
   // talk content
   talk_content = Object.values(talk_speaker_details)

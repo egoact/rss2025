@@ -1,6 +1,6 @@
 const project_name = `EgoAct: 1st Workshop on Egocentric Perception and Action for Robot Learning @ RSS2025`
-const proj_small_caps = `<span class="small-caps">🤖🧠4🏡</span>`
-const conference_details = ['RSS 2025', 'https://roboticsconference.org/', 'Los Angeles, USA', 'assets/images/RSS2025-logo.png'] // , 'assets/images/workshop_logo.png']
+const proj_small_caps = `` // `<span class="small-caps">🤖🧠4🏡</span>`
+const conference_details = ['RSS 2025', 'https://roboticsconference.org/', 'Los Angeles, USA', 'assets/images/RSS2025-logo.png', 'assets/images/workshop_logo.png']
 const workshop_date = `TBD, 2025`
 
 const talk_speaker_details = {
