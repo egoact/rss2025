@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta id="meta-desc" name="description"
+    content="Web home for EgoAct: 1st Workshop on Egocentric Perception and Action for Robot Learning @ RSS2025">
+  <meta id="meta-author" name="author" content="Snehal Jauhri">
+  <title id="title"></title>
+
+  <link href="./assets/css/fonts.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./assets/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./assets/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./assets/css/academic.min.css">
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <link rel="icon" href="#">
+
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero-body pad-zero">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 id="project-name" class="title is-1 publication-title"></h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <h1 id="conference-details"></h1>
+                <h1 id="workshop-date" class="is-4"></h1>
+              </span>
+            </div>
+            <div class="column has-text-centered">
+              <div class="publication-links">
+
+                <!-- Contact Link. -->
+                <span class="link-block">
+                  <a href="./call-for-contributions" class="external-link button is-normal is-rounded is-primary" style="box-shadow: 0px 0px 5px 0px lightgrey">
+                    <span class="icon">
+                      <i class="fas fa-newspaper"></i>
+                    </span>
+                    <span>Call for Contributions</span>
+                  </a>
+                </span>
+                <br>
+
+                <!-- Zoom Link. -->
+                <!-- span class="link-block">
+                  <a href="" class="external-link button is-normal is-rounded is-primary" style="box-shadow: 0px 0px 5px 0px lightgrey">
+                    <span class="icon">
+                      <i class="fa fa-video"></i>
+                    </span>
+                    <span>Join Online</span>
+                  </a>
+                </span>
+                <br-->
+
+                <!-- Recording. -->
+                <!-- <span class="link-block">
+                  <a href="https://www.youtube.com/playlist?list=PL1A3o7iF8HvI33TkcU3-Z_gU0gs7f0Lhj" class="external-link button is-normal is-rounded is-primary" style="box-shadow: 0px 0px 5px 0px lightgrey">
+                    <span class="icon">
+                      <i class="fa fa-video"></i>
+                    </span>
+                    <span>Recordings</span>
+                  </a>
+                </span>
+                <br> -->
+                
+                <!-- Speakers. -->
+                <span class="link-block">
+                  <a href="#speakers" class="external-link button is-normal is-rounded is-danger">
+                    <span class="icon">
+                      <i class="fas fa-users icon"></i>
+                    </span>
+                    <span>Speakers</span>
+                  </a>
+                </span>
+
+                <!-- Organizers. -->
+                <span class="link-block">
+                  <a href="#organizers" class="external-link button is-normal is-rounded is-warning">
+                    <span class="icon">
+                      <i class="fas fa-users icon"></i>
+                    </span>
+                    <span>Organizers</span>
+                  </a>
+                </span>
+
+                <!-- Schedule Link. -->
+                <span class="link-block">
+                  <a href="#schedule" class="external-link button is-normal is-rounded is-info">
+                    <span class="icon">
+                      <i class="far fa-calendar-alt icon"></i>
+                    </span>
+                    <span>Schedule</span>
+                  </a>
+                </span>
+
+
+                <!-- Contact Link. -->
+                <span class="link-block">
+                  <a href="#contact" class="external-link button is-normal is-rounded is-success">
+                    <span class="icon">
+                      <i class="fas fa-address-book icon"></i>
+                    </span>
+                    <span>Contact</span>
+                  </a>
+                </span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Overview. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3">Overview</h2>
+          <div class="content has-text-justified">
+            <p>
+              In recent years, there has been a proliferation of VR/AR and wearable devices that enable data capture and interaction with the world through an egocentric interface. This has helped develop numerous egocentric robotic interfaces aimed at democratizing robot learning through easy data capture, as demonstrated by projects like ARCap https://stanford-tml.github.io/ARCap, Open & Mobile-TeleVision (https://robot-tv.github.io, https://mobile-tv.github.io), EgoMimic https://egomimic.github.io, etc.
+
+              Moreover, large-scale egocentric datasets (such as Ego4D, EPIC-KITCHENS, HOT3D, etc.) offer unique advantages for robotics. They facilitate a high-level understanding of tasks, sub-goals, and action predictions based on observed human interaction data. Moreover, since the first-person view aligns naturally with robot-centric perspectives, these datasets can enable the extraction of demonstrations at scale through "passive" human-object interaction data. Another exciting frontier is the development of embodied egocentric world models using such data that can be leveraged for general-purpose robotics.
+              
+              This workshop aims to bring together researchers from robotics, machine learning, and computer vision to discuss the latest advances in developing robotic methods that can effectively leverage egocentric interfaces and egocentric human data for robot learning. We will discuss key challenges, such as how to effectively transfer human interaction data to robotic problems, addressing issues like unstable camera frame movements, lack of action labels, and embodiment gaps between the human and the robot. We will also discuss what interfaces are most effective for demonstrating robot behavior through VR/AR devices.
+
+              Some key workshop topics include but are not limited to:
+
+            <ul>
+              <li>
+                Egocentric interfaces for robot learning
+              </li>
+              <li>
+                Egocentric scene and high-level action understanding
+              </li>
+              <li>
+                Transfer learning between humans and robots
+              </li>
+              <li>
+                Building foundational models for robotic perception using human activity datasets
+              </li>
+              <li>
+                Leveraging egocentric world models for both high-level planning and low-level manipulation
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Overview. -->
+    </div>
+  </section>
+
+
+  <section id="speakers" class="section">
+    <!-- Speakers. -->
+    <div class="container is-max-desktop">
+      <h2 class="center title is-3">Confirmed Speakers</h2>
+      <div id="talk-content1" class="columns is-centered"></div>
+      <div id="talk-content2" class="columns is-centered"></div>
+      <!--/ Speakers. -->
+  </section>
+
+  <section id="accepted-contributions" class="section">
+    <div class="container is-max-desktop">
+      <!-- Accepted contributions. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3">Accepted Contributions</h2>
+          <span class="has-text-success bold">If you are interested in presenting your work, please check out the <a class="has-text-info" href="./call-for-contributions/" target="_blank" rel="noopener noreferrer">Call for Contributions</a> page.</span>
+          <!-- Coming soon. Thanks for your patience. -->
+          <!-- <div class="has-text-danger bold"><i class="fa fa-info-circle" aria-hidden="true"></i> Spotlight and poster presenter details will be updated after acceptance notification is sent.<br>For reference, a sample list is depicted below.</div><br> -->
+          <div id="ppt-list" class="content has-text-justified"></div>
+      </div>
+    </div>
+    <!--/ Accepted Contributions. -->
+    </div>
+  </section>
+
+  <section id="organizers" class="section">
+    <!-- Organizers. -->
+    <div class="container is-max-desktop">
+      <h2 class="center title is-3">Organizers</h2>
+      <div id="organizer-content-1" class="columns is-centered"></div>
+      <div id="organizer-content-2" class="columns is-centered"></div>
+      <div id="organizer-affiliation-logo-content" class="columns is-centered"></div>
+      <!--/ Organizers. -->
+  </section>
+
+  <section id="schedule" class="section">
+    <div class="container is-max-desktop">
+      <!-- Schedule. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <!-- <h2 class="title is-3">Tentative Schedule</h2> -->
+          <h2 class="title is-3">Schedule</h2>
+          <div class="content center has-text-justified">
+            <!-- Coming soon. Thanks for your patience. -->
+            <div class="has-text-danger bold"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Specific details will be coming soon. Thanks for your patience.</div><br>
+            <div class="table-container">
+              <table id="schedule-table" class="table">
+                <tbody id="schedule-table-body">
+              </table>
+            </div>
+          </div>
+        </div>
+        <!--/ Schedule. -->
+      </div>
+  </section>
+
+
+  <section id="schedule" class="section">
+    <div class="container is-max-desktop">
+      <!-- Related Workshop -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3">Related Workshops</h2>
+          <div class="content has-text-centered">
+              <a href="https://ease-crc.org/icra2024-household-challenge/" target="_blank">Workshop on Robotic Household Interaction: Research, Implementation, and Community @ ICRA 2024</a><br><br>
+              <a href="https://sites.google.com/view/rap4robots" target="_blank">Workshop on effective Representations, Abstractions, and Priors for Robot Learning (RAP4Robots) @ ICRA 2023</a><br><br>
+              <a href="https://mit-spark.github.io/robotRepresentations-RSS2023/" target="_blank">Robot Representations For Scene Understanding, Reasoning and Planning @ RSS 2023</a><br>
+    
+          </div>
+      </div>
+    </div>
+        <!--/ Related Workshop. -->
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container is-max-desktop">
+      <!-- Contact. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3">Contact</h2>
+          <div class="content center has-text-justified">
+            Please feel free to send us your queries via email at <a
+              href="mailto:egoact.workshop@gmail.com">egoact.workshop@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <!--/ Contact. -->
+    </div>
+  </section>
+
+</body>
+<script src="./assets/js/jquery.min.js"></script>
+<script defer src="./assets/js/fontawesome.all.min.js"></script>
+<script src="./assets/js/bulma-carousel.min.js"></script>
+<script src="./assets/js/bulma-slider.min.js"></script>
+<script src="./assets/js/config.js"></script>
+<script src="./assets/js/index.js"></script>
+
+</html>
