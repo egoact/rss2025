@@ -93,7 +93,7 @@ $(document).ready(function () {
   $('#conference-details').html(`
   <a href="${conference_details[1]}" target="_blank">
   <div class="title-images">
-    <img src="${conference_details[4]}" width="130px" height="130px">
+    // <img src="${conference_details[4]}" width="130px" height="130px">
     <img src="${conference_details[3]}" width="270px">
   </div>
   <p class="is-2"><i class="fas fa-map-marker-alt" aria-hidden="true"></i>
@@ -197,7 +197,7 @@ $(document).ready(function () {
   });
 
   // Last updated
-  var apiUrl = "https://api.github.com/repos/robots4homes/robots4homes.github.io/commits?sha=main&per_page=1";
+  var apiUrl = "https://api.github.com/repos/rss2025/egoact.github.io/commits?sha=main&per_page=1";
   $.getJSON(apiUrl, function (data) {
     var commitDate = new Date(data[0].commit.committer.date);
     var formattedDate = commitDate.toDateString();
