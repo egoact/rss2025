@@ -1,5 +1,5 @@
-const project_name = `EgoAct: 1st Workshop on Egocentric Perception and Action for Robot Learning @ RSS2025`
-const proj_small_caps = `` // `<span class="small-caps">🤖🧠4🏡</span>`
+const project_name = `1st Workshop on Egocentric Perception and Action for Robot Learning @ RSS2025`
+const proj_small_caps = `EgoAct:` // `<span class="small-caps">🤖🧠4🏡</span>`
 const conference_details = ['RSS 2025', 'https://roboticsconference.org/', 'Los Angeles, USA', 'assets/images/RSS2025-logo.png', 'assets/images/workshop_logo.png']
 const workshop_date = `TBD, 2025`
 
@@ -15,7 +15,10 @@ const talk_speaker_details = {
 
 const organizers_details = [
   ['Snehal Jauhri', './assets/images/organizers/snehaljauhri.webp', 'PhD Researcher', 'TU Darmstadt', 'https://pearl-lab.com/people/snehal-jauhri/'],
-  ['Georgia Chalvatzaki', './assets/images/organizers/georgia.png', 'Professor', 'TU Darmstadt', 'https://irosalab.com/people/georgia-chalvatzaki/'],
+  ['Georgia Chalvatzaki', './assets/images/organizers/georgia.png', 'Professor', 'TU Darmstadt', 'https://pearl-lab.com/people/georgia-chalvatzaki/'],
+  ['Danfei Xu', './assets/images/organizers/danfei.jpg', 'Assistant Professor', 'Georgia Tech', 'https://faculty.cc.gatech.edu/~danfei/'],
+  ['Fabio Galasso', './assets/images/organizers/fabio.jpg', 'Professor', 'Sapienza University in Rome', 'https://fgalasso.bitbucket.io'],
+  ['Yu Xiang', './assets/images/organizers/yuxiang.png', 'Assistant Professor', 'UT Dallas', 'https://yuxng.github.io/'],
 ]
 
 const accepted_presentations = [
