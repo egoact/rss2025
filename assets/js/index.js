@@ -34,7 +34,7 @@ function populate_affiliatons(html_id, details){
     content_html += `
     <div class="column">
       <div class="center">
-      <img class="${html_id}-image center" src="${detail}" style="width: 100%; height: auto;">
+        <img class="${html_id}-image center" src="${detail}" style="width: auto; height: auto; max-width: 100%; max-height: 150px;">
       </div>
     </div>`
   }
