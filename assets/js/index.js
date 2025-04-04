@@ -102,9 +102,9 @@ $(document).ready(function () {
   $('#workshop-date').html(workshop_date) // Eg. Monday, 17th July @ RSS 2025
 
   // speaker content
-  speaker_content = Object.values(talk_speaker_details)
-  populate_people_html('speaker-content1', speaker_content.slice(0, 4))
-  populate_people_html('speaker-content2', speaker_content.slice(4, ))
+  talk_content = Object.values(talk_speaker_details)
+  populate_people_html('talk-content1', talk_content.slice(0, 4))
+  populate_people_html('talk-content2', talk_content.slice(4, ))
 
   // organizers content
   populate_people_html('organizer-content-1', organizers_details.slice(0, 5))
