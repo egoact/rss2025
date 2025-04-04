@@ -98,7 +98,8 @@ font-style: italic;
 }
 
 .organizer-affiliation-logo-content-image {
-  width: 15rem !important; /*Adjust the desired width */
-  height: 15rem !important; /*Set the same value as width to make it a square*/
+  max-height: 8rem !important; /* Ensure the image height does not exceed 10rem */
+  width: auto !important; /* Adjust the width proportionally */
+  object-fit: contain !important; /* Ensure the entire image fits within the container */
   border-radius: 0% !important;
 }

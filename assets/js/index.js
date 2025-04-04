@@ -30,8 +30,10 @@ function populate_affiliatons(html_id, details){
   for(var i=0; i<details.length; i++) {
     let detail = details[i]
     content_html += `
-    <div class="center">
-      <img class="${html_id}-image center" src="${detail}" style="width: 100%; height: auto; object-fit: contain;">
+    <div class="column">
+      <div class="center">
+        <img class="${html_id}-image center" src="${detail}">
+      </div>
     </div>`
   }
   $(`#${html_id}`).html(content_html)
