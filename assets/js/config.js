@@ -1,16 +1,16 @@
 const project_name = `1st Workshop on Egocentric Perception and Action for Robot Learning @ RSS2025`
 const proj_small_caps = `EgoAct:` // `<span class="small-caps">🤖🧠4🏡</span>`
 const conference_details = ['RSS 2025', 'https://roboticsconference.org/', 'Los Angeles, USA', 'assets/images/RSS2025-logo.png', 'assets/images/workshop_logo.png']
-const workshop_date = `TBD, 2025`
+const workshop_date = `21st June, 2025`
 
 const talk_speaker_details = {
-  // 'dh': ['David Hsu', './assets/images/talks/david_hsu.png', 'Professor', 'Department of Computer Science, National University of Singapore', 'https://www.comp.nus.edu.sg/~dyhsu/', ' ', ''],
-  // 'cp': ['Chris Paxton', './assets/images/talks/chris-paxton.jpeg', 'Research Scientist', 'Meta AI', 'https://cpaxton.github.io', 'Towards Home Robots: Open Vocabulary Mobile Manipulation in Unstructured Environments', ''],
-  // 'ra': ['Rika Antonova', './assets/images/talks/rika.jpeg', 'Postdoctoral Researcher', 'Standford', 'https://contactrika.github.io/', 'Efficient Autonomy: Leveraging Equivariance and Rapid Adaptation to Train Versatile Household Robots', ''],
-  // 'pf': ['Mahi Shafiullah', './assets/images/talks/mahi.jpeg', 'PhD Resercher', 'New York University', 'https://mahis.life/', '', ""],
-  // 'ta': ['Tamim Asfour', './assets/images/talks/tamim.jpeg', 'Professor', 'Institute for Anthropomatics and Robotics, KIT', 'https://h2t.iar.kit.edu/english/21_2372.php', 'Engineering Functional Intelligence for 24/7 Assistance at Home', ''],
-  // 'ke': ['Kiana Ehsani', './assets/images/talks/kiana.jpg', 'Research Scientist', 'Allen Institute for AI', 'https://sites.google.com/view/ehsanik-personal-website/', 'From Boxed Bots to Home Robots: Imitate, Generalize, Personalize', ''],
-  // 'ae': ['Aaron Edsinger', './assets/images/talks/aaron.jpg', 'CEO & Co-founder', 'Hello Robot Inc.', 'https://hello-robot.com/about', '', ''],
+  'kg': ['Kristen Grauman', './assets/images/talks/kristen.jpg', 'Professor', 'Department of Computer Science, University of Texas at Austin', 'https://www.cs.utexas.edu/~grauman/', ' TBD', ''],
+  'xw': ['Xiaolong Wang', './assets/images/talks/xiaolong.jpg', 'Assistant Professor', 'ECE Department, UC San Diego, USA', 'https://xiaolonw.github.io', 'Modeling Humans for Humanoid Robots', ''],
+  'sk': ['Simar Kareer', './assets/images/talks/simar.png', 'PhD candidate', 'Georgia Institute of Technology, USA', 'https://simarkareer.com/', 'EgoMimic: Scaling Imitation Learning through Egocentric Video', ''],
+  'ay': ['Angela Yao', './assets/images/talks/angela.png', 'Associate Professor', 'School of Computing, National University of Singapore, Singapore', 'https://www.comp.nus.edu.sg/~ayao/', 'Action Understanding in Streaming Ego-Video', ''],
+  'hb': ['Homanga Bharadwaj', './assets/images/talks/homanga.jpeg', 'PhD candidate', 'Robotics Institute, CMU, USA', 'https://homangab.github.io/', 'Watch, Predict, Act: Robot Learning Meets Web Videos', ''],
+  'af': ['Antonino Furnari', './assets/images/talks/antonino.jpg', 'Assistant Professor', 'University of Catania, Italy', 'https://antoninofurnari.github.io/', 'Egocentric Vision for Procedural Video Understanding', ''],
+  'ma': ['Reality Labs', './assets/images/meta-logo.png', '', 'Meta', 'https://www.projectaria.com/', 'Project Aria Gen 2', ''],
 }
 
 const organizers_details = [
@@ -37,8 +37,7 @@ const accepted_presentations = [
 ]
 
 const org_affiliation_logos = [
-  'assets/images/affiliation-logos/um-logo.png',
-  'assets/images/affiliation-logos/utd-logo.png',
+  'assets/images/meta-logo.png',
 ]
 
 
@@ -46,6 +45,19 @@ const org_affiliation_logos = [
 // event-alias, time slot, event name, person alias from talk_speaker_details, ppt mode
 // last two are for inv-talk event-alias entries
 const schedule = [
+    ['intro', '08:30 - 08:40', 'Introduction'],
+    ['inv-talk', '08:40 - 09:00', 'Invited Talk', 'sk', 'in-person'],
+    ['inv-talk', '09:00 - 09:20', 'Invited Talk', 'af', 'in-person'],
+    ['inv-talk', '09:20 - 09:50', 'Invited Talk', 'ma', 'in-person'],
+    ['spot-ppt', '09:50 - 10:00', 'Spotlight Presentations'],
+    ['coffee-break', '10:00 - 10:45', 'Coffee Break & Poster Session'],
+    ['inv-talk', '10:45 - 11:05', 'Invited Talk', 'kg', 'in-person'],
+    ['inv-talk', '11:05 - 11:30', 'Invited Talk', 'ay', 'in-person'],
+    ['inv-talk', '11:30 - 11:50', 'Invited Talk', 'hb', 'in-person'],
+    ['inv-talk', '11:50 - 12:10', 'Invited Talk', 'xw', 'in-person'],
+    ['panel-disc', '12:10 - 12:30', 'Panel Discussion'],
+    ['awards', '12:30 - 12:45', 'Awards & Closing Remarks'],
+  
   // ['intro', '09:00 - 09:10', 'Introduction'],
   // ['inv-talk', '09:10 - 09:40', 'Invited Talk', 'dh', 'in-person'],
   // ['inv-talk', '09:40 - 10:10', 'Invited Talk', 'ae', 'in-person'],

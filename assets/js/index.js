@@ -95,7 +95,7 @@ $(document).ready(function () {
   <div class="title-images">
     <img src="${conference_details[4]}" width="130px" height="130px">
     &nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="${conference_details[3]}" width="500px">
+    <img src="${conference_details[3]}" width="300px">
   </div>
   <br>
   <p class="is-2"><i class="fas fa-map-marker-alt" aria-hidden="true"></i>
@@ -116,7 +116,7 @@ $(document).ready(function () {
   populate_accepted_presentations("ppt-list", accepted_presentations)
 
   // organizer affiliation content
-  // populate_affiliatons('organizer-affiliation-logo-content', org_affiliation_logos)
+  populate_affiliatons('organizer-affiliation-logo-content', org_affiliation_logos)
 
 
 
