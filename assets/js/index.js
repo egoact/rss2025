@@ -30,8 +30,10 @@ function populate_affiliatons(html_id, details){
   for(var i=0; i<details.length; i++) {
     let detail = details[i]
     content_html += `
-    <div style="text-align: center; margin: 10px 0;">
-      <img class="${html_id}-image" src="${detail}" style="width: 100%; height: auto; max-height: 150px;">
+    <div class="column">
+      <div class="center">
+      <img class="${html_id}-image center" src="${detail}" style="width: 100%; height: auto;">
+      </div>
     </div>`
   }
   $(`#${html_id}`).html(content_html)
@@ -103,8 +105,8 @@ $(document).ready(function () {
 
   // speaker content
   talk_content = Object.values(talk_speaker_details)
-  populate_people_html('talk-content1', talk_content.slice(0, 4))
-  populate_people_html('talk-content2', talk_content.slice(4, ))
+  populate_people_html('talk-content1', talk_content.slice(0, 3))
+  populate_people_html('talk-content2', talk_content.slice(3, ))
 
   // organizers content
   populate_people_html('organizer-content-1', organizers_details.slice(0, 5))
