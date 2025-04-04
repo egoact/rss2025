@@ -5,9 +5,7 @@ function log(message) {
 function populate_people_html(html_id, details, row_split_idx){
     // content
     let content_html = ``
-    // for(var i=0; i<details.length; i++) {
-    // temp: skipping the last speaker for now
-    for(var i=0; i<details.length-1; i++) {
+    for(var i=0; i<details.length; i++) {
       let detail = details[i]
       content_html += `
       <div class="column is-variable is-max-desktop">
@@ -32,9 +30,9 @@ function populate_affiliatons(html_id, details){
   for(var i=0; i<details.length; i++) {
     let detail = details[i]
     content_html += `
-    <div class="column">
+    <div class="column is-full">
       <div class="center">
-        <img class="${html_id}-image center" src="${detail}" style="width: auto; height: auto; max-width: 100%; max-height: 150px;">
+      <img class="${html_id}-image center" src="${detail}" style="width: 100%; height: auto; max-height: 150px;">
       </div>
     </div>`
   }
@@ -105,10 +103,10 @@ $(document).ready(function () {
   </a>`)
   $('#workshop-date').html(workshop_date) // Eg. Monday, 17th July @ RSS 2025
 
-  // talk content
-  talk_content = Object.values(talk_speaker_details)
-  populate_people_html('talk-content1', talk_content.slice(0, 4))
-  populate_people_html('talk-content2', talk_content.slice(4, ))
+  // speaker content
+  speaker_content = Object.values(talk_speaker_details)
+  populate_people_html('speaker-content1', speaker_content.slice(0, 3))
+  populate_people_html('speaker-content2', speaker_content.slice(3, 6))
 
   // organizers content
   populate_people_html('organizer-content-1', organizers_details.slice(0, 5))
