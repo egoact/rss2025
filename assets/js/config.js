@@ -14,7 +14,7 @@ const talk_speaker_details = {
 }
 
 const organizers_details = [
-  ['Snehal Jauhri', './assets/images/organizers/snehaljauhri.webp', 'PhD Researcher', 'TU Darmstadt', 'https://pearl-lab.com/people/snehal-jauhri/'],
+  ['Snehal Jauhri', './assets/images/organizers/snehaljauhri.webp', 'PhD Candidate', 'TU Darmstadt', 'https://pearl-lab.com/people/snehal-jauhri/'],
   ['Georgia Chalvatzaki', './assets/images/organizers/georgia.png', 'Professor', 'TU Darmstadt', 'https://pearl-lab.com/people/georgia-chalvatzaki/'],
   ['Danfei Xu', './assets/images/organizers/danfei.jpg', 'Assistant Professor', 'Georgia Tech', 'https://faculty.cc.gatech.edu/~danfei/'],
   ['Fabio Galasso', './assets/images/organizers/fabio.jpg', 'Professor', 'Sapienza University in Rome', 'https://fgalasso.bitbucket.io'],
