@@ -5,7 +5,9 @@ function log(message) {
 function populate_people_html(html_id, details, row_split_idx){
     // content
     let content_html = ``
-    for(var i=0; i<details.length; i++) {
+    // for(var i=0; i<details.length; i++) {
+    // temp: skipping the last speaker for now
+    for(var i=0; i<details.length-1; i++) {
       let detail = details[i]
       content_html += `
       <div class="column is-variable is-max-desktop">
@@ -32,7 +34,7 @@ function populate_affiliatons(html_id, details){
     content_html += `
     <div class="column">
       <div class="center">
-        <img class="${html_id}-image center" src="${detail}">
+      <img class="${html_id}-image center" src="${detail}" style="width: 100%; height: auto;">
       </div>
     </div>`
   }
@@ -149,7 +151,7 @@ $(document).ready(function () {
       talk_mode = schedule_entry[4] == 'online' ? `<span class='has-text-danger bold'>[Online]</span>` : ``
       align_left = (speaker_details[5] != `` && speaker_details[6] != ``) ? "align-left" : ""
       title = speaker_details[5] != `` ? `<h5 class="center has-text-success bold">${speaker_details[5]}</h5>` : ``
-      abstract = speaker_details[6] != `` ? `<p><span class="bold">Abstract.</span> ${speaker_details[6]}</p>` : `<p class="center">Details coming soon. Thanks for your patience.</p>`
+      abstract = speaker_details[6] != `` ? `<p><span class="bold">Abstract.</span> ${speaker_details[6]}</p>` : `<p class="center"></p>`
       title_abstract_html = ` ${talk_mode}: ${speaker_details[0]} (<span class='toggle-btn has-text-success'>Details</span>)`
       hidden_row_html = `<tr class="hidden-content ${align_left}"><td colspan="2">${title}${abstract}</td></tr>`
     }

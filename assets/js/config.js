@@ -4,13 +4,13 @@ const conference_details = ['RSS 2025', 'https://roboticsconference.org/', 'Los 
 const workshop_date = `21st June, 2025`
 
 const talk_speaker_details = {
-  'kg': ['Kristen Grauman', './assets/images/talks/kristen.jpg', 'Professor', 'Department of Computer Science, University of Texas at Austin', 'https://www.cs.utexas.edu/~grauman/', ' TBD', ''],
-  'xw': ['Xiaolong Wang', './assets/images/talks/xiaolong.jpg', 'Assistant Professor', 'ECE Department, UC San Diego, USA', 'https://xiaolonw.github.io', 'Modeling Humans for Humanoid Robots', ''],
-  'sk': ['Simar Kareer', './assets/images/talks/simar.png', 'PhD candidate', 'Georgia Institute of Technology, USA', 'https://simarkareer.com/', 'EgoMimic: Scaling Imitation Learning through Egocentric Video', ''],
-  'ay': ['Angela Yao', './assets/images/talks/angela.png', 'Associate Professor', 'School of Computing, National University of Singapore, Singapore', 'https://www.comp.nus.edu.sg/~ayao/', 'Action Understanding in Streaming Ego-Video', ''],
-  'hb': ['Homanga Bharadwaj', './assets/images/talks/homanga.jpeg', 'PhD candidate', 'Robotics Institute, CMU, USA', 'https://homangab.github.io/', 'Watch, Predict, Act: Robot Learning Meets Web Videos', ''],
+  'kg': ['Kristen Grauman', './assets/images/talks/kristen.jpg', 'Professor', 'University of Texas at Austin, USA', 'https://www.cs.utexas.edu/~grauman/', ' TBD', ''],
+  'xw': ['Xiaolong Wang', './assets/images/talks/xiaolong.jpg', 'Assistant Professor', 'UC San Diego, USA', 'https://xiaolonw.github.io', 'Modeling Humans for Humanoid Robots', ''],
+  'sk': ['Simar Kareer', './assets/images/talks/simar.png', 'PhD student', 'Georgia Institute of Technology, USA', 'https://simarkareer.com/', 'EgoMimic: Scaling Imitation Learning through Egocentric Video', ''],
+  'ay': ['Angela Yao', './assets/images/talks/angela.png', 'Associate Professor', 'National University of Singapore, Singapore', 'https://www.comp.nus.edu.sg/~ayao/', 'Action Understanding in Streaming Ego-Video', ''],
+  'hb': ['Homanga Bharadwaj', './assets/images/talks/homanga.jpeg', 'PhD candidate', 'CMU, USA', 'https://homangab.github.io/', 'Watch, Predict, Act: Robot Learning Meets Web Videos', ''],
   'af': ['Antonino Furnari', './assets/images/talks/antonino.jpg', 'Assistant Professor', 'University of Catania, Italy', 'https://antoninofurnari.github.io/', 'Egocentric Vision for Procedural Video Understanding', ''],
-  'ma': ['Reality Labs', './assets/images/meta-logo.png', '', 'Meta', 'https://www.projectaria.com/', 'Project Aria Gen 2', ''],
+  'ma': ['Meta Reality Labs', './assets/images/meta-logo.png', '', 'Meta', 'https://www.projectaria.com/', 'Project Aria Gen 2', ''],
 }
 
 const organizers_details = [
@@ -56,7 +56,7 @@ const schedule = [
     ['inv-talk', '11:30 - 11:50', 'Invited Talk', 'hb', 'in-person'],
     ['inv-talk', '11:50 - 12:10', 'Invited Talk', 'xw', 'in-person'],
     ['panel-disc', '12:10 - 12:30', 'Panel Discussion'],
-    ['awards', '12:30 - 12:45', 'Awards & Closing Remarks'],
+    ['awards', '12:30 - 12:45', 'Best Paper Award & Closing Remarks'],
   
   // ['intro', '09:00 - 09:10', 'Introduction'],
   // ['inv-talk', '09:10 - 09:40', 'Invited Talk', 'dh', 'in-person'],
