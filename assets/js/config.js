@@ -10,6 +10,9 @@ const talk_speaker_details = {
   'ay': ['Angela Yao', './assets/images/talks/angela.png', 'Associate Professor', 'National University of Singapore, Singapore', 'https://www.comp.nus.edu.sg/~ayao/', 'Action Understanding in Streaming Ego-Video', ''],
   'hb': ['Homanga Bharadwaj', './assets/images/talks/homanga.jpeg', 'PhD candidate', 'CMU, USA', 'https://homangab.github.io/', 'Watch, Predict, Act: Robot Learning Meets Web Videos', ''],
   'af': ['Antonino Furnari', './assets/images/talks/antonino.jpg', 'Assistant Professor', 'University of Catania, Italy', 'https://antoninofurnari.github.io/', 'Egocentric Vision for Procedural Video Understanding', ''],
+}
+
+const sponsor_speaker_details = {
   'ma': ['Meta Reality Labs', './assets/images/meta-logo.png', '', 'Meta', 'https://www.projectaria.com/', 'Project Aria Gen 2', ''],
 }
 
@@ -48,7 +51,7 @@ const schedule = [
     ['intro', '08:30 - 08:40', 'Introduction'],
     ['inv-talk', '08:40 - 09:00', 'Invited Talk', 'sk', 'in-person'],
     ['inv-talk', '09:00 - 09:20', 'Invited Talk', 'af', 'in-person'],
-    ['inv-talk', '09:20 - 09:50', 'Invited Talk', 'ma', 'in-person'],
+    ['spons-talk', '09:20 - 09:50', 'Sponsored Talk', 'ma', 'in-person'],
     ['spot-ppt', '09:50 - 10:00', 'Spotlight Presentations'],
     ['coffee-break', '10:00 - 10:45', 'Coffee Break & Poster Session'],
     ['inv-talk', '10:45 - 11:05', 'Invited Talk', 'kg', 'in-person'],
