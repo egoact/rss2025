@@ -5,12 +5,12 @@ const overview_images = ['./assets/images/abstract-1-vive.png', './assets/images
 const workshop_date = `21st June (Saturday), 2025`
 
 const talk_speaker_details = {
-  'kg': ['Kristen Grauman', './assets/images/talks/kristen.jpg', 'Professor', 'University of Texas at Austin, USA', 'https://www.cs.utexas.edu/~grauman/', ' TBD', ''],
-  'xw': ['Xiaolong Wang', './assets/images/talks/xiaolong.jpg', 'Assistant Professor', 'UC San Diego, USA', 'https://xiaolonw.github.io', 'Modeling Humans for Humanoid Robots', ''],
-  'sk': ['Simar Kareer', './assets/images/talks/simar.png', 'PhD student', 'Georgia Institute of Technology, USA', 'https://simarkareer.com/', 'EgoMimic: Scaling Imitation Learning through Egocentric Video', ''],
-  'ay': ['Angela Yao', './assets/images/talks/angela.png', 'Associate Professor', 'National University of Singapore, Singapore', 'https://www.comp.nus.edu.sg/~ayao/', 'Action Understanding in Streaming Ego-Video', ''],
-  'hb': ['Homanga Bharadwaj', './assets/images/talks/homanga.jpeg', 'PhD candidate', 'CMU, USA', 'https://homangab.github.io/', 'Watch, Predict, Act: Robot Learning Meets Web Videos', ''],
-  'af': ['Antonino Furnari', './assets/images/talks/antonino.jpg', 'Assistant Professor', 'University of Catania, Italy', 'https://antoninofurnari.github.io/', 'Egocentric Vision for Procedural Video Understanding', ''],
+  'kg': ['Kristen Grauman', './assets/images/talks/kristen.jpg', 'Professor', 'University of Texas at Austin', 'https://www.cs.utexas.edu/~grauman/', ' TBD', ''],
+  'xw': ['Xiaolong Wang', './assets/images/talks/xiaolong.jpg', 'Assistant Professor', 'UC San Diego', 'https://xiaolonw.github.io', 'Modeling Humans for Humanoid Robots', ''],
+  'sk': ['Simar Kareer', './assets/images/talks/simar.png', 'PhD student', 'Georgia Institute of Technology', 'https://simarkareer.com/', 'EgoMimic: Scaling Imitation Learning through Egocentric Video', ''],
+  'ay': ['Angela Yao', './assets/images/talks/angela.png', 'Associate Professor', 'National University of Singapore', 'https://www.comp.nus.edu.sg/~ayao/', 'Action Understanding in Streaming Ego-Video', ''],
+  'hb': ['Homanga Bharadwaj', './assets/images/talks/homanga.jpeg', 'PhD candidate', 'Carnegie Mellon University', 'https://homangab.github.io/', 'Watch, Predict, Act: Robot Learning Meets Web Videos', ''],
+  'af': ['Antonino Furnari', './assets/images/talks/antonino.jpg', 'Assistant Professor', 'University of Catania', 'https://antoninofurnari.github.io/', 'Egocentric Vision for Procedural Video Understanding', ''],
 }
 
 const sponsor_speaker_details = {
