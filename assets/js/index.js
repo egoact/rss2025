@@ -94,14 +94,26 @@ $(document).ready(function () {
   <a href="${conference_details[1]}" target="_blank">
   <div class="title-images">
     <img src="${conference_details[4]}" width="130px" height="130px">
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="${conference_details[3]}" width="300px">
+    &nbsp;&nbsp;&nbsp;
+    <img src="${conference_details[3]}" width="250px">
   </div>
   <br>
   <p class="is-2"><i class="fas fa-map-marker-alt" aria-hidden="true"></i>
   ${conference_details[2]}</p>
   </a>`)
-  $('#workshop-date').html(workshop_date) // Eg. Monday, 17th July @ RSS 2025
+  $('#workshop-date').html(workshop_date) // Eg. Saturday, 21st July @ RSS 2025
+
+  // Add overview images
+  let overview_html = ``;
+  overview_images.forEach(image => {
+    overview_html += `
+    <div class="column">
+      <div class="center">
+      <img class="overview-image center" src="${image}" style="max-height: 180px; width: auto;">
+      </div>
+    </div>`;
+  });
+  $('#overview-images-container').html(overview_html);
 
   // speaker content
   talk_content = Object.values(talk_speaker_details)

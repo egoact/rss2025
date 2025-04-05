@@ -1,7 +1,8 @@
 const project_name = `1st Workshop on Egocentric Perception and Action for Robot Learning @ RSS2025`
 const proj_small_caps = `EgoAct:` // `<span class="small-caps">🤖🧠4🏡</span>`
 const conference_details = ['RSS 2025', 'https://roboticsconference.org/', 'Los Angeles, USA', 'assets/images/RSS2025-logo.png', 'assets/images/workshop_logo.png']
-const workshop_date = `21st June, 2025`
+const overview_images = ['./assets/images/abstract-1-vive.png', './assets/images/abstract-2-humanoid.webp', './assets/images/abstract-3-egohuman.jpg']
+const workshop_date = `21st June (Saturday), 2025`
 
 const talk_speaker_details = {
   'kg': ['Kristen Grauman', './assets/images/talks/kristen.jpg', 'Professor', 'University of Texas at Austin, USA', 'https://www.cs.utexas.edu/~grauman/', ' TBD', ''],
