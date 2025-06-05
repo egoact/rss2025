@@ -57,8 +57,8 @@ const schedule = [
     ['spons-talk', '10:10 - 10:30', 'Sponsored Talk', 'ma', 'in-person'],
     ['coffee-break', '10:30 - 11:10', 'Coffee Break & Poster Session'],
     ['spot-ppt', '11:10 - 11:30', 'Spotlight Presentations'],
-    ['inv-talk', '11:30 - 11:50', 'Invited Talk', 'kg', 'in-person'],
-    ['inv-talk', '11:50 - 12:10', 'Invited Talk', 'hb', 'in-person'],
+    ['inv-talk', '11:30 - 11:50', 'Invited Talk', 'hb', 'in-person'],
+    ['inv-talk', '11:50 - 12:10', 'Invited Talk', 'kg', 'in-person'],
     ['panel-disc', '12:10 - 12:30', 'Panel Discussion'],
     ['awards', '12:30 - 12:45', 'Best Paper Award & Closing Remarks'],
   
