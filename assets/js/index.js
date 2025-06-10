@@ -77,6 +77,22 @@ function populate_accepted_presentations(html_id, details){
   $(`#${html_id}`).html(content_html)
 }
 
+function populate_accepted_papers(html_id, details) {
+  let content_html = ``;
+  for (let i = 0; i < details.length; i++) {
+    let paper = details[i];
+    let title = paper[1] || '';
+    let url = paper[0] || '';
+    let spotlight = paper[2] && paper[2].toLowerCase() === "spotlight" ? `<span class="tag is-warning">Spotlight</span>` : ``;
+
+    content_html += `
+      <div class="paper-entry">
+        <span>${url ? `<a href="${url}" target="_blank">${title}</a>` : title}</span> ${spotlight}
+      </div>
+    `;
+  }
+  $(`#${html_id}`).html(content_html);
+}
 
 function animate_hidden_content(hidden_content){
   if (hidden_content.is(':visible')) {
@@ -102,6 +118,7 @@ $(document).ready(function () {
   ${conference_details[2]}</p>
   </a>`)
   $('#workshop-date').html(workshop_date) // Eg. Saturday, 21st July @ RSS 2025
+  $('#workshop-room').html(workshop_room) // Eg. Room 101, Main Building
 
   // Add overview images
   let overview_html = ``;
@@ -126,6 +143,9 @@ $(document).ready(function () {
 
   // accepted presentations
   populate_accepted_presentations("ppt-list", accepted_presentations)
+
+  // accepted papers
+  populate_accepted_papers("accepted-papers", accepted_papers)
 
   // organizer affiliation content
   populate_affiliatons('organizer-affiliation-logo-content', org_affiliation_logos)

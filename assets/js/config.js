@@ -3,6 +3,7 @@ const proj_small_caps = `EgoAct:` // `<span class="small-caps">🤖🧠4🏡</sp
 const conference_details = ['RSS 2025', 'https://roboticsconference.org/', 'Los Angeles, USA', 'assets/images/RSS2025-logo.png', 'assets/images/workshop_logo.png']
 const overview_images = ['./assets/images/abstract-1-vive.png', './assets/images/abstract-2-humanoid.webp', './assets/images/abstract-3-egohuman.jpg']
 const workshop_date = `21st June (Saturday), 2025`
+const workshop_room = `Room 211, Ronald Tutor Hall (RTH)`
 
 const talk_speaker_details = {
   'kg': ['Kristen Grauman', './assets/images/talks/kristen.jpg', 'Professor', 'University of Texas at Austin', 'https://www.cs.utexas.edu/~grauman/', ' TBD', ''],
@@ -37,14 +38,30 @@ const accepted_presentations = [
   // ['Ankit Goyal', 'https://imankgoyal.github.io/', 'assets/images/ppt-talks/Ankit-Goyal.png', 'Research Scientist', 'NVIDIA', 'RVT: Robotic View Transformer for 3D Object Manipulation', 'For 3D object manipulation, methods that build an explicit 3D representation perform better than those relying only on camera images. But using explicit 3D representations like voxels comes at large computing cost, adversely affecting scalability. Ee propose RVT, a multi-view transformer for 3D manipulation that is both scalable and accurate. Some key features of RVT are an attention mechanism to aggregate information across views and re-rendering of the camera input from virtual views around the robot workspace. In simulations, we find that a single RVT model works well across 18 RLBench tasks with 249 task variations, achieving 26% higher relative success than the existing state-of-the-art method (PerAct). It also trains 36X faster than PerAct for achieving the same performance and achieves 2.3X the inference speed of PerAct. Further, RVT can perform a variety of manipulation tasks in the real world with just a few (∼10) demonstrations per task.', 'Spotlight', '14:50 - 15:00'],
   // ['Zhenyu Jiang', 'https://zhenyujiang.me/', 'assets/images/ppt-talks/Zhenyu-Jiang.jpg', 'PhD Student', 'The University of Texas at Austin', 'Doduo: Dense Visual Correspondence from Unsupervised Semantic-Aware Flow', 'Dense visual correspondence plays a vital role in robotic perception. This work focuses on establishing the dense correspondence between a pair of images that captures dynamic scenes undergoing substantial transformations. We introduce Doduo to learn general dense visual correspondence from in-the-wild images and videos without ground truth supervision. Given a pair of images, it estimates the dense flow field encoding the displacement of each pixel in one image to its corresponding pixel in the other image. Doduo uses flow-based warping to acquire supervisory signals for the training. Incorporating semantic priors with self-supervised flow training, Doduo produces accurate dense correspondence robust to the dynamic changes of the scenes. Trained on an in-the-wild video dataset, Doduo illustrates superior performance on point-level correspondence estimation over existing self-supervised correspondence learning baselines. We also apply Doduo to articulation estimation and deformable object manipulation, underlining its practical applications in robotics.', 'Spotlight', '15:00 - 15:10'],
   // ['Leon Kim', 'https://www.grasp.upenn.edu/people/leon-kim/', 'assets/images/ppt-talks/Leon-Kim.jpg', 'PhD Student', 'University of Pennsylvania', 'Vision-Based Contact Localization Without Touch or Force Sensing', 'Contacts play a critical role in most manipulation tasks. Robots today mainly use proximal touch/force sensors to sense contacts, but the information they provide must be calibrated and is inherently local, with practical applications relying either on extensive surface coverage or restrictive assumptions to resolve ambiguities. We propose a vision-based extrinsic contact localization task: with only a single RGB-D camera view of a robot workspace, identify when and where an object held by the robot contacts the rest of the environment. We show that careful task-attuned design is critical for a neural network trained in simulation to discover solutions that transfer well to a real robot. Our final approach im2contact demonstrates the promise of versatile general-purpose contact perception from vision alone, performing well for localizing various contact types (point, line, or planar; sticking, sliding, or rolling; single or multiple), and even under occlusions in its camera view. ', 'Spotlight', '15:10 - 15:20'],
+]
 
+const accepted_papers = [
+  // URL, Title, Type
+  ["https://openreview.net/forum?id=YpXjNEtuSW",	"Goal Discovery with Causal Capacity for Efficient Reinforcement Learning", ""],
+  ["https://openreview.net/forum?id=PMl4Usv8r4",	"CL-HCoTNav: Closed-Loop Hierarchical Chain-of-Thought for Zero-Shot Object-Goal Navigation with Vision-Language Models", ""],
+  ["https://openreview.net/forum?id=gSQd9DUsTv",	"Human2LocoMan: Learning Versatile Quadrupedal Manipulation with Human Pretraining", ""],
+  ["https://openreview.net/forum?id=B5uIN77Ygn",	"Spatial Affordance Prediction for Egocentric Task-Driven Navigation", ""],
+  ["https://openreview.net/forum?id=IZoLSTFWJe",	"ZeroMimic: Distilling Robotic Manipulation Skills from Web Videos", ""],
+  ["https://openreview.net/forum?id=7NVKDUSgyT",	"ViSA-Flow: Accelerating Robot Skill Learning via Large-Scale Video Semantic Action Flow", ""],
+  ["https://openreview.net/forum?id=WU4K0sjQOP",	"EgoDex: Learning Dexterous Manipulation from Large-Scale Egocentric Video", "spotlight"],
+  ["https://openreview.net/forum?id=2cst9ZBqCI",	"DexWild: Dexterous Human Interactions for In-the-Wild Robot Policies","spotlight"],
+  ["https://openreview.net/forum?id=HphpX7poOH",	"2HandedAfforder: Learning Precise Actionable Bimanual Affordances from Human Videos"],
+  ["https://openreview.net/forum?id=NnDKff5vGF",	"Articulated Object Estimation in the Wild","spotlight"],
+  ["https://openreview.net/forum?id=wcny71HVDS",	"X-Sim: Cross-Embodiment Learning via Real-to-Sim-to-Real","spotlight"],
+  ["https://openreview.net/forum?id=Riff05gik8",	"DemoDiffusion: One-Shot Human Imitation using pre-trained Diffusion Policy", ""],
+  ["https://openreview.net/forum?id=spNaBy2Qyx",	"Let Humanoids Hike! Integrative Skill Development on Complex Trails", ""],
+  ["https://openreview.net/forum?id=J5mOoq1f3C",	"Visual Imitation Enables Contextual Humanoid Control", ""],
+  ["https://openreview.net/forum?id=dLrUErRVD9",	"IRIS: An Immersive Robot Interaction System", ""]
 ]
 
 const org_affiliation_logos = [
   'assets/images/meta-logo.png',
 ]
-
-
 
 // event-alias, time slot, event name, person alias from talk_speaker_details, ppt mode
 // last two are for inv-talk event-alias entries
@@ -55,7 +72,7 @@ const schedule = [
     ['inv-talk', '09:20 - 09:50', 'Invited Talk', 'ay', 'in-person'],
     ['inv-talk', '09:50 - 10:10', 'Invited Talk', 'xw', 'in-person'],
     ['spons-talk', '10:10 - 10:30', 'Sponsored Talk', 'ma', 'in-person'],
-    ['coffee-break', '10:30 - 11:10', 'Coffee Break & Poster Session'],
+    ['coffee-break', '10:30 - 11:10', 'Coffee Break & Poster Session (@ Epstein Family Plaza)'],
     ['spot-ppt', '11:10 - 11:30', 'Spotlight Presentations'],
     ['inv-talk', '11:30 - 11:50', 'Invited Talk', 'hb', 'in-person'],
     ['inv-talk', '11:50 - 12:10', 'Invited Talk', 'kg', 'in-person'],
