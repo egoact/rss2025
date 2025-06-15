@@ -10,7 +10,7 @@ const talk_speaker_details = {
   'xw': ['Xiaolong Wang', './assets/images/talks/xiaolong.jpg', 'Assistant Professor', 'UC San Diego', 'https://xiaolonw.github.io', 'Modeling Humans for Humanoid Robots', ''],
   'sk': ['Simar Kareer', './assets/images/talks/simar.png', 'PhD student', 'Georgia Institute of Technology', 'https://simarkareer.com/', 'EgoMimic: Scaling Imitation Learning through Egocentric Video', ''],
   'ay': ['Angela Yao', './assets/images/talks/angela.png', 'Associate Professor', 'National University of Singapore', 'https://www.comp.nus.edu.sg/~ayao/', 'Action Understanding in Streaming Ego-Video', ''],
-  'hb': ['Homanga Bharadwaj', './assets/images/talks/homanga.jpeg', 'PhD candidate', 'Carnegie Mellon University', 'https://homangab.github.io/', 'Watch, Predict, Act: Robot Learning Meets Web Videos', ''],
+  'hb': ['Homanga Bharadwaj', './assets/images/talks/homanga.jpeg', 'Research Scientist', 'FAIR - AI at Meta', 'https://homangab.github.io/', 'Watch, Predict, Act: Robot Learning Meets Web Videos', ''],
   'af': ['Antonino Furnari', './assets/images/talks/antonino.jpg', 'Assistant Professor', 'University of Catania', 'https://antoninofurnari.github.io/', 'Egocentric Vision for Procedural Video Understanding', ''],
 }
 
@@ -41,22 +41,22 @@ const accepted_presentations = [
 ]
 
 const accepted_papers = [
-  // URL, Title, Type
-  ["https://openreview.net/forum?id=YpXjNEtuSW",	"Goal Discovery with Causal Capacity for Efficient Reinforcement Learning", ""],
-  ["https://openreview.net/forum?id=PMl4Usv8r4",	"CL-HCoTNav: Closed-Loop Hierarchical Chain-of-Thought for Zero-Shot Object-Goal Navigation with Vision-Language Models", ""],
-  ["https://openreview.net/forum?id=gSQd9DUsTv",	"Human2LocoMan: Learning Versatile Quadrupedal Manipulation with Human Pretraining", ""],
-  ["https://openreview.net/forum?id=B5uIN77Ygn",	"Spatial Affordance Prediction for Egocentric Task-Driven Navigation", ""],
-  ["https://openreview.net/forum?id=IZoLSTFWJe",	"ZeroMimic: Distilling Robotic Manipulation Skills from Web Videos", ""],
-  ["https://openreview.net/forum?id=7NVKDUSgyT",	"ViSA-Flow: Accelerating Robot Skill Learning via Large-Scale Video Semantic Action Flow", ""],
-  ["https://openreview.net/forum?id=WU4K0sjQOP",	"EgoDex: Learning Dexterous Manipulation from Large-Scale Egocentric Video", "spotlight"],
-  ["https://openreview.net/forum?id=2cst9ZBqCI",	"DexWild: Dexterous Human Interactions for In-the-Wild Robot Policies","spotlight"],
-  ["https://openreview.net/forum?id=HphpX7poOH",	"2HandedAfforder: Learning Precise Actionable Bimanual Affordances from Human Videos"],
-  ["https://openreview.net/forum?id=NnDKff5vGF",	"Articulated Object Estimation in the Wild","spotlight"],
-  ["https://openreview.net/forum?id=wcny71HVDS",	"X-Sim: Cross-Embodiment Learning via Real-to-Sim-to-Real","spotlight"],
-  ["https://openreview.net/forum?id=Riff05gik8",	"DemoDiffusion: One-Shot Human Imitation using pre-trained Diffusion Policy", ""],
-  ["https://openreview.net/forum?id=spNaBy2Qyx",	"Let Humanoids Hike! Integrative Skill Development on Complex Trails", ""],
-  ["https://openreview.net/forum?id=J5mOoq1f3C",	"Visual Imitation Enables Contextual Humanoid Control", ""],
-  ["https://openreview.net/forum?id=dLrUErRVD9",	"IRIS: An Immersive Robot Interaction System", ""]
+  // URL, Title, Type, Authors
+  ["https://openreview.net/forum?id=YpXjNEtuSW",	"Goal Discovery with Causal Capacity for Efficient Reinforcement Learning", "", "Yan Yu, Yaodong Yang, Zhenbo Lu, Chengdong Ma, Wengang Zhou, Houqiang Li"],
+  ["https://openreview.net/forum?id=PMl4Usv8r4",	"CL-HCoTNav: Closed-Loop Hierarchical Chain-of-Thought for Zero-Shot Object-Goal Navigation with Vision-Language Models", "", "Yuxin Cai, Haoruo Zhang, Wei-Yun Yau, Chen Lv"],
+  ["https://openreview.net/forum?id=gSQd9DUsTv",	"Human2LocoMan: Learning Versatile Quadrupedal Manipulation with Human Pretraining", "", "Yaru Niu, Yunzhe Zhang, Mingyang Yu, Changyi Lin, Chenhao Li, Yikai Wang, Yuxiang Yang, Wenhao Yu, Tingnan Zhang, Zhenzhen Li, Jonathan Francis, Bingqing Chen, Jie Tan, Ding Zhao"],
+  ["https://openreview.net/forum?id=B5uIN77Ygn",	"Spatial Affordance Prediction for Egocentric Task-Driven Navigation", "", "Zach A Chavis, Hyun Soo Park, Stephen J. Guy"],
+  ["https://openreview.net/forum?id=IZoLSTFWJe",	"ZeroMimic: Distilling Robotic Manipulation Skills from Web Videos", "", "Junyao Shi, Zhuolun Zhao, Tianyou Wang, Ian Pedroza, Amy Luo, Jie Wang, Yecheng Jason Ma, Dinesh Jayaraman"],
+  ["https://openreview.net/forum?id=7NVKDUSgyT",	"ViSA-Flow: Accelerating Robot Skill Learning via Large-Scale Video Semantic Action Flow", "", "Changhe Chen, Quantao Yang, Xiaohao Xu, Nima Fazeli, Olov Andersson"],
+  ["https://openreview.net/forum?id=WU4K0sjQOP",	"EgoDex: Learning Dexterous Manipulation from Large-Scale Egocentric Video", "spotlight", "Ryan Hoque, Peide Huang, David J. Yoon, Mouli sivapurapu, Jian Zhang"],
+  ["https://openreview.net/forum?id=2cst9ZBqCI",	"DexWild: Dexterous Human Interactions for In-the-Wild Robot Policies","spotlight", "Tony Tao, Mohan Kumar Srirama, Jason Jingzhou Liu, Kenneth Shaw, Deepak Pathak"],
+  ["https://openreview.net/forum?id=HphpX7poOH",	"2HandedAfforder: Learning Precise Actionable Bimanual Affordances from Human Videos", "", "Marvin Heidinger, Snehal Jauhri, Vignesh Prasad, Georgia Chalvatzaki"],
+  ["https://openreview.net/forum?id=NnDKff5vGF",	"Articulated Object Estimation in the Wild","spotlight", "Abdelrhman Werby, Martin Büchner, Adrian Röfer, Chenguang Huang, Wolfram Burgard, Abhinav Valada"],
+  ["https://openreview.net/forum?id=wcny71HVDS",	"X-Sim: Cross-Embodiment Learning via Real-to-Sim-to-Real","spotlight", "Prithwish Dan, Kushal Kedia, Angela Chao, Edward Duan, Maximus Adrian Pace, Wei-Chiu Ma, Sanjiban Choudhury"],
+  ["https://openreview.net/forum?id=Riff05gik8",	"DemoDiffusion: One-Shot Human Imitation using pre-trained Diffusion Policy", "", "Sungjae Park, Homanga Bharadhwaj, Shubham Tulsiani"],
+  ["https://openreview.net/forum?id=spNaBy2Qyx",	"Let Humanoids Hike! Integrative Skill Development on Complex Trails", "", "Kwan-Yee Lin, Stella X. Yu"],
+  ["https://openreview.net/forum?id=J5mOoq1f3C",	"Visual Imitation Enables Contextual Humanoid Control", "", "Arthur Allshire, Hongsuk Choi, Junyi Zhang, David McAllister, Anthony Zhang, Chung Min Kim, Trevor Darrell, Pieter Abbeel, Jitendra Malik, Angjoo Kanazawa"],
+  ["https://openreview.net/forum?id=dLrUErRVD9",	"IRIS: An Immersive Robot Interaction System", "", "Xinkai Jiang, Qihao Yuan, Enes Ulas Dincer, Hongyi Zhou, Ge Li, Xueyin Li, Xiaogang Jia, Timo Schnizer, Nicolas Schreiber, Weiran Liao, Julius Haag, Kailai Li, Gerhard Neumann, Rudolf Lioutikov"]
 ]
 
 const org_affiliation_logos = [

@@ -84,10 +84,11 @@ function populate_accepted_papers(html_id, details) {
     let title = paper[1] || '';
     let url = paper[0] || '';
     let spotlight = paper[2] && paper[2].toLowerCase() === "spotlight" ? `<span class="tag is-warning">Spotlight</span>` : ``;
+    let authors = paper[3] ? `<br><span style="font-size: 0.9em; color: #555;">${paper[3]}</span>` : ``;
 
     content_html += `
       <div class="paper-entry">
-        <span>${url ? `<a href="${url}" target="_blank">${title}</a>` : title}</span> ${spotlight}
+        <span>${url ? `<a href="${url}" target="_blank">${title}</a>` : title}</span> ${spotlight}${authors}
       </div>
     `;
   }
