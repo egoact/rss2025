@@ -7,7 +7,8 @@ const workshop_room = `Room 211, Ronald Tutor Hall (RTH)`
 
 const talk_speaker_details = {
   'kg': ['Kristen Grauman', './assets/images/talks/kristen.jpg', 'Professor', 'University of Texas at Austin', 'https://www.cs.utexas.edu/~grauman/', ' TBD', ''],
-  'xw': ['Xiaolong Wang', './assets/images/talks/xiaolong.jpg', 'Assistant Professor', 'UC San Diego', 'https://xiaolonw.github.io', 'Modeling Humans for Humanoid Robots', ''],
+  'xw': ['Xiaolong Wang', './assets/images/talks/xiaolong.jpg', 'Associate Professor', 'UC San Diego', 'https://xiaolonw.github.io', 'Modeling Humans for Humanoid Robots', ''],
+  'jf': ['James Fort', './assets/images/talks/james.png', 'Product Manager: Aria Research Kit', 'Meta Reality Labs', 'https://www.projectaria.com/', 'Project Aria Gen 2', ''],
   'sk': ['Simar Kareer', './assets/images/talks/simar.png', 'PhD student', 'Georgia Institute of Technology', 'https://simarkareer.com/', 'EgoMimic: Scaling Imitation Learning through Egocentric Video', ''],
   'ay': ['Angela Yao', './assets/images/talks/angela.png', 'Associate Professor', 'National University of Singapore', 'https://www.comp.nus.edu.sg/~ayao/', 'Action Understanding in Streaming Ego-Video', ''],
   'hb': ['Homanga Bharadwaj', './assets/images/talks/homanga.jpeg', 'Research Scientist', 'FAIR - AI at Meta', 'https://homangab.github.io/', 'Watch, Predict, Act: Robot Learning Meets Web Videos', ''],
@@ -15,7 +16,7 @@ const talk_speaker_details = {
 }
 
 const sponsor_speaker_details = {
-  'ma': ['Meta Reality Labs', './assets/images/meta-logo.png', '', 'Meta', 'https://www.projectaria.com/', 'Project Aria Gen 2', ''],
+  'jf': ['James Fort', './assets/images/meta-logo.png', '', 'Meta Reality Labs', 'https://www.projectaria.com/', 'Project Aria Gen 2', ''],
 }
 
 const organizers_details = [
@@ -71,7 +72,7 @@ const schedule = [
     ['inv-talk', '09:00 - 09:20', 'Invited Talk', 'af', 'in-person'],
     ['inv-talk', '09:20 - 09:50', 'Invited Talk', 'ay', 'in-person'],
     ['inv-talk', '09:50 - 10:10', 'Invited Talk', 'xw', 'in-person'],
-    ['spons-talk', '10:10 - 10:30', 'Sponsored Talk', 'ma', 'in-person'],
+    ['spons-talk', '10:10 - 10:30', 'Invited Talk', 'jf', 'in-person'],
     ['coffee-break', '10:30 - 11:10', 'Coffee Break & Poster Session (@ Epstein Family Plaza)'],
     ['spot-ppt', '11:10 - 11:30', 'Spotlight Presentations'],
     ['inv-talk', '11:30 - 11:50', 'Invited Talk', 'hb', 'in-person'],
