@@ -4,9 +4,10 @@ const conference_details = ['RSS 2025', 'https://roboticsconference.org/', 'Los 
 const overview_images = ['./assets/images/abstract-1-vive.png', './assets/images/abstract-2-humanoid.webp', './assets/images/abstract-3-egohuman.jpg']
 const workshop_date = `21st June (Saturday), 2025`
 const workshop_room = `Room 211, Ronald Tutor Hall (RTH)`
+const workshop_meeting_link = '<a href="https://tu-darmstadt.zoom-x.de/j/63444276593?pwd=UxdOP45ix7o6ADzOBhfms6IqMnjFef.1" target="_blank"> Zoom Link</a>'
 
 const talk_speaker_details = {
-  'kg': ['Kristen Grauman', './assets/images/talks/kristen.jpg', 'Professor', 'University of Texas at Austin', 'https://www.cs.utexas.edu/~grauman/', ' TBD', ''],
+  'kg': ['Kristen Grauman', './assets/images/talks/kristen.jpg', 'Professor', 'University of Texas at Austin', 'https://www.cs.utexas.edu/~grauman/', 'Skill Learning and the Ego-Exo Divide', ''],
   'xw': ['Xiaolong Wang', './assets/images/talks/xiaolong.jpg', 'Associate Professor', 'UC San Diego', 'https://xiaolonw.github.io', 'Modeling Humans for Humanoid Robots', ''],
   'jf': ['James Fort', './assets/images/talks/james.png', 'Product Manager: Aria Research Kit', 'Meta Reality Labs', 'https://www.projectaria.com/', 'Project Aria Gen 2', ''],
   'sk': ['Simar Kareer', './assets/images/talks/simar.png', 'PhD student', 'Georgia Institute of Technology', 'https://simarkareer.com/', 'EgoMimic: Scaling Imitation Learning through Egocentric Video', ''],
@@ -68,10 +69,10 @@ const org_affiliation_logos = [
 // last two are for inv-talk event-alias entries
 const schedule = [
     ['intro', '08:30 - 08:40', 'Introduction'],
-    ['inv-talk', '08:40 - 09:00', 'Invited Talk', 'sk', 'in-person'],
+    ['inv-talk', '08:40 - 09:00', 'Invited Talk', 'kg', 'in-person'],
     ['inv-talk', '09:00 - 09:20', 'Invited Talk', 'af', 'in-person'],
     ['inv-talk', '09:20 - 09:50', 'Invited Talk', 'ay', 'in-person'],
-    ['inv-talk', '09:50 - 10:10', 'Invited Talk', 'kg', 'in-person'],
+    ['inv-talk', '09:50 - 10:10', 'Invited Talk', 'sk', 'in-person'],
     ['spons-talk', '10:10 - 10:30', 'Invited Talk', 'jf', 'in-person'],
     ['coffee-break', '10:30 - 11:10', 'Coffee Break & Poster Session (@ Epstein Family Plaza)'],
     ['spot-ppt', '11:10 - 11:30', 'Spotlight Presentations'],

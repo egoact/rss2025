@@ -120,6 +120,7 @@ $(document).ready(function () {
   </a>`)
   $('#workshop-date').html(workshop_date) // Eg. Saturday, 21st July @ RSS 2025
   $('#workshop-room').html(workshop_room) // Eg. Room 101, Main Building
+  $('#workshop-meeting-link').html(workshop_meeting_link)
 
   // Add overview images
   let overview_html = ``;
