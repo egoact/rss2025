@@ -4,7 +4,7 @@ const conference_details = ['RSS 2025', 'https://roboticsconference.org/', 'Los 
 const overview_images = ['./assets/images/abstract-1-vive.png', './assets/images/abstract-2-humanoid.webp', './assets/images/abstract-3-egohuman.jpg']
 const workshop_date = `21st June (Saturday), 2025`
 const workshop_room = `Room 211, Ronald Tutor Hall (RTH)`
-const workshop_meeting_link = '<a href="https://tu-darmstadt.zoom-x.de/j/63444276593?pwd=UxdOP45ix7o6ADzOBhfms6IqMnjFef.1" target="_blank"> Zoom Link</a>'
+const workshop_meeting_link = '<a href="https://youtu.be/64yLApbBZ7I" target="_blank"> [Full Workshop Recording] </a>'
 
 const talk_speaker_details = {
   'kg': ['Kristen Grauman', './assets/images/talks/kristen.jpg', 'Professor', 'University of Texas at Austin', 'https://www.cs.utexas.edu/~grauman/', 'Skill Learning and the Ego-Exo Divide', ''],
